@@ -3,7 +3,7 @@ import { ACCESS_TOKEN } from "./constans"
 
 
 const api = axios.create({
-    baseURL: "http://127.0.0.1:8000"
+    baseURL: "http://3.14.153.145:8888"
 })
 
 api.interceptors.request.use(
